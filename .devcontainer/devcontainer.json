@@ -1,0 +1,8 @@
+{
+  "name": "Fictioneer WP Dev",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "wp",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "forwardPorts": [8080],
+  "postCreateCommand": "echo 'Codespace ready!'"
+}
